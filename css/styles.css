@@ -1,5 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
 *{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif; /* formato da fonte*/
+    box-sizing: border-box; /*borda dos elementos sem area*/
 }
+
+header{
+    background-color: #4D41C0; /*cor do fundo */
+    color: #FFFFFF /* cor da letra*/
+}
+
+nav{
+    display: flex; /*alinha os filhos de um elemento lado a lado*/
+    align-items: center; /* alinha no centro*/
+    justify-content: space-between;/*colaca um na direita e um na esquerda*/
+}
+
+html, body{
+    background-color:rgba(87, 85, 85, 0.867)
+}
+
+a,  a:hover { /* tirar o mouse e nao muda de cor*/
+    color: unset; /* cor do link*/
+    text-decoration: unset; /*tira sublinhado do link*/
+}
+
